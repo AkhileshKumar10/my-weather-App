@@ -10,7 +10,7 @@ let weather = {
         .then((response) => {
           if (!response.ok) {
             alert(" sorry No weather found in the current city.");
-            throw new Error("No weather found.");
+            throw new Error("sorry No weather found in the current city.");
           }
           return response.json();
         })
