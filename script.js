@@ -51,4 +51,4 @@ let weather = {
       }
     });
   
-  weather.fetchWeather("Chamba");
+  weather.fetchWeather("Dalhousie");
